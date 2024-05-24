@@ -4,33 +4,40 @@
     --primary-background:rgb(245, 244, 220);
     
     }
-    
-    header {
-        background-color: var(--primary-background)
-    }
-    
-    #nav-menu {
-        font-size:3vw;
-        color:black;
-        background-color: var(--secondary-color);
-        justify-content: space-evenly;
-        display: flex;
-    }
-    
-    #nav-menu a {
-        text-decoration: none;
-        color: black;
-       
-    
-    }
-    
-    a:hover {
-        
+   
+    .about-me p {
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       border: 2px dotted var(--secondary-color);
+       background-color:white;
+       min-height: 20dvh;
+       justify-content: center;
+       border-radius:50px;
+       padding: 25px;
+       display:flex;
+       font-size-adjust: auto;
+
+        }
+    body {
         background-color: var(--primary-background);
-        }
+    }
+    h1 {
+        text-align: center;
+        font-family:fantasy;
+        font-size: 6vw;
+        justify-content:unset;
+        padding: 0%;
+    }
+    .family-photo {
+        width:100%;
+        height: auto;
+        border-radius: 5%;
+        padding: 0%;
+        
 
-    section {
-            font-family:cursive;
+    }
 
+    @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
         }
-    
+      }

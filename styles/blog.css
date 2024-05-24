@@ -4,27 +4,4 @@
     --primary-background:rgb(245, 244, 220);
     }
     
-    header {
-        background-color: var(--primary-background)
-    }
-    
-    #nav-menu {
-        font-size:3vw;
-        color:black;
-        background-color: var(--secondary-color);
-        justify-content: space-evenly;
-        display: flex;
-    }
-    
-    #nav-menu a {
-        text-decoration: none;
-        color: black;
-       
-    
-    }
-    
-    a:hover {
-        
-        background-color: var(--primary-background);
-        }
     
