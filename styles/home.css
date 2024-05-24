@@ -1,3 +1,6 @@
 .homepageimage {
-inline-size: auto;
+    display: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+

@@ -4,12 +4,30 @@
 --primary-background:rgb(245, 244, 220);
 }
 
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+    align: top-right;
+}
+
+.social-media a i {
+    font-size: 24px;
+    color: black;
+}
+
 header {
     background-color: var(--primary-background)
 }
 
+.vlk-logo {
+    display: block;
+}
+
 #nav-menu {
-    font-size:3vw;
+    font-size:2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
     background-color: var(--secondary-color);
     justify-content: space-evenly;
@@ -19,12 +37,9 @@ header {
 #nav-menu a {
     text-decoration: none;
     color: black;
-   
-
 }
 
 a:hover {
-    
     background-color: var(--primary-background);
     }
 
@@ -37,9 +52,17 @@ a:hover {
 .footer-info {
     text-align: center;
     font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:small;
     color:black;
-    padding: 2vw;
+    padding: 1vw;
     background-color: var(--primary-background);
+}
 
+
+@media screen and (min-width:600px) {
+    header{
+        display: flex-box;
+    
+    }
 }
