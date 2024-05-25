@@ -3,5 +3,55 @@
     --secondary-color:rgb(115, 141, 137);
     --primary-background:rgb(245, 244, 220);
     }
+/*     
+     * {
+        box-sizing:border-box;
+     } */
+   
+     .blog-posts {
+        float:initial;
+        border: dotted 2px;
+        padding: 10px;
+        margin: 15px;
+        background-color: var(--primary-background)
     
-    
+     }
+  
+       .blog-align:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .blog-pic img {
+        max-width: 100%;
+        height: auto;
+        padding:10px;
+      } 
+
+      div.blog-title {
+        font-family: fantasy;
+        font-size: 25px;
+        text-align: center;
+        padding: 20px;
+      }
+
+      
+      @media only screen and (max-width: 700px) {
+        .blog-posts {
+          width: 50%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 600px) {
+       .blog-posts {
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 400px) {
+        .blog-posts {
+           width: 100%;
+         }
+       } 
