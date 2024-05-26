@@ -1,9 +1,9 @@
 :root {
-    --primary-color: rgb(245, 244, 220);
-    --secondary-color:rgb(115, 141, 137);
-    --primary-background:rgb(245, 244, 220);
-    
+    --primary-color: rgb(193, 215, 218);
+    --secondary-color:rgb(236, 241, 243);
+    --primary-background:#74878a;
     }
+    
    
     .about-me p {
        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,7 +14,8 @@
        border-radius:50px;
        padding: 25px;
        display:flex;
-       font-size-adjust: auto;
+       /* font-size-adjust: auto; */
+       font-size: 18px;
 
         }
     body {

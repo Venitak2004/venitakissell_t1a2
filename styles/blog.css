@@ -1,12 +1,12 @@
 :root {
-    --primary-color: rgb(245, 244, 220);
-    --secondary-color:rgb(115, 141, 137);
-    --primary-background:rgb(245, 244, 220);
+    --primary-color: rgb(193, 215, 218);
+    --secondary-color:rgb(236, 241, 243);
+    --primary-background:#74878a;
     }
-/*     
-     * {
+     
+     /* {
         box-sizing:border-box;
-     } */
+     }  */
    
      .blog-posts {
         float:initial;
@@ -24,13 +24,14 @@
       }
 
       .blog-pic img {
-        max-width: 100%;
+        /* max-width: 100%; */
+        align-items: center;
         height: auto;
-        padding:10px;
+        padding: 3px;
       } 
 
       div.blog-title {
-        font-family: fantasy;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 25px;
         text-align: center;
         padding: 20px;
