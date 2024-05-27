@@ -1,6 +1,24 @@
 :root {
-    --primary-color: rgb(193, 215, 218);
-    --secondary-color:rgb(236, 241, 243);
-    --primary-background:#74878a;
+    --primary-color: rgb(138, 179, 216);
+    --secondary-color:rgb(180, 218, 225);
+    --primary-background:#b8d3ed;
+    }
+
+    main {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px;
     }
     
+    article {
+        background-color: var(--secondary-color);
+        border-radius: 16px;
+        overflow: hidden;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .services-image {
+        width: 40px;
+    } 
