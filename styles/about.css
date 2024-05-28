@@ -21,28 +21,45 @@
         padding: 0px;
       }
       
+  
 .grid-layout > div {
         background-color: rgba(255, 255, 255, 0.8);
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
         padding: 20px 0;
+       
       }
 
 .button-grid {
-        background-color: var(--primary-color);
+        /* background-color: var(--primary-color); */
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-decoration: none;
         padding: 20px;
+        background-color: var(--primary-color);
+        text-decoration: none;
+        padding: 10px 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        min-width: 70px;
+        font-size: 15px;
+        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
       }
 .button a {
     hover:var(--primary-background);  
+    
       }
 
-.gridh {
-    background-color: whitesmoke;
-    opacity: 0.5;
 
+
+.gridm img {
+    width: 100%;
+} 
+
+.gridmu {
+    text-align: justify;
+    
 }
+
+
 @media screen and (min-width:600px) {
     header{
         display: flex-box;
@@ -54,5 +71,6 @@
     header{
         display: flex-box;
         justify-content:space-evenly;
+
     }
 }
