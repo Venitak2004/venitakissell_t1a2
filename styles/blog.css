@@ -1,16 +1,11 @@
-:root {
-    --primary-color: rgb(138, 179, 216);
-    --secondary-color:rgb(180, 218, 225);
-    --primary-background:#b8d3ed;
-    }
-     
+
      
       * {box-sizing: border-box;
      } 
    
      main {
-        display:-webkit-flex;
-        flex-direction:column;
+        /* display:-webkit-flex; */
+        /* flex-direction:column; */
      }
      .blog-posts {
     
@@ -66,7 +61,7 @@
         background-color: var(--primary-background);
     }
 
-      @media only screen and (max-width: 700px) {
+      /* @media only screen and (max-width: 700px) {
         .blog-posts {
           width: 50%;
           margin: 6px 0;
@@ -83,4 +78,4 @@
         .blog-posts {
            width: 100%;
          }
-       }
+       } */

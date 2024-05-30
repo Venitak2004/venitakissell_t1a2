@@ -1,33 +1,25 @@
-:root {
-    --primary-color: rgb(138, 179, 216);
-    --secondary-color:rgb(180, 218, 225);
-    --primary-background:#b8d3ed;
-    }
-
-
-
-.portfolio h1 {
-  /* display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat (12, 1fr);
-  height: auto; */
-  font-family: fantasy;
-}
-panel {
+/* 
+.panel {
 justify-content: flex-start;
 
-}
+} */
 
-* {
+/* * {
   box-sizing: border-box;
   
   font-size: 18px;;
-} 
+}  */
 
-section {
+/* article {
+border-radius: 50%;
+display: center;
+
+} */
+/* section {
   display: flex;
   flex-direction: column;
-}
+} */
+
 
       @media only screen and (max-width: 700px) {
         .portfolio {
@@ -40,9 +32,9 @@ section {
        .portfolio {
           width: 100%;
         }
-      }
+      } 
 
-      /* @media only screen and (max-width: 375px) {
+      @media only screen and (max-width: 375px) {
         .blog-posts {
            width: 100%;
          }
