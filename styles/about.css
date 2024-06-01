@@ -8,7 +8,7 @@ main {
   .gridh { grid-area: header; font-size: 30px; }
     .gridmu { grid-area: menu; font-size:18px; }
     .gridm { grid-area: main;}
-    .gridf { grid-area: footer;}
+    .gridf { grid-area: footer; grid-row: span;}
 
 
 .grid-layout {
@@ -70,6 +70,30 @@ main {
     
 }
 
+
+/* footer menu */
+
+.footer-menu {
+    display:flexbox;
+    padding: 30px;
+}
+
+.footer-menu ul {
+    display:flexbox;
+    text-align: center;
+    justify-content: space-evenly;
+    text-decoration:none;
+    color: var(--secondary-background);    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px; 
+    margin-bottom: 30px;
+}
+
+ul:hover {
+    color: var(--secondary-color);
+    /* background-color: white; */
+}
 
 
 @media screen and (min-width:600px) {

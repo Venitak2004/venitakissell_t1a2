@@ -8,7 +8,7 @@
 
 
 .header img {
-    position: relative;
+    position:relative;
 
 }
 
@@ -87,7 +87,7 @@ a:hover {
     font-size: 2vw;
     text-align:center;    
 }
-
+/* address and contact details  */
 .footer-info {
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -103,12 +103,12 @@ a:hover {
     size: 50px;
     padding: 30px;
     flex-direction: column;
-    align-items:center;
-    justify-content:right;
-    background-color: var(--primary-background);
+    /* align-items:center; */
+    /* justify-content:right; */
+    /* background-color: var(--primary-background); */
 }
 
-.social-media a i {
+/* .social-media a i {
     display:flex;
     float: right;
     flex-direction: column;
@@ -116,17 +116,34 @@ a:hover {
     padding: 2px;
     color: black;
     text-align: right;
+} */
+
+/* icon social buttons */
+
+
+.social-media a i {
+    display:flex;
+    float: right;
+    flex-direction: column;
+    padding: 8px;
+    color: black;
+    text-align: right;
+
 }
 
-.social-media:hover {
+
+
+
+/* .social-media:hover {
     color:pink;
-}
+} */
 .vlk-logo {
-    text-align: center;
+    text-align: right;
+
 
 }
 
-/* footer menu */
+/* footer menu also tied to portfolio */
 ul a {
     display: flexbox;
     text-align: center;
@@ -136,12 +153,18 @@ ul a {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     border-radius: 10px; 
-    margin-bottom: 30px;
+    margin-top: 30px;
+   
 }
 
-ul a:hover {
+ul:hover {
     color: var(--secondary-color);
-    background-color: white;
+    /* background-color: white; */
+}
+
+.footer-menu {
+    padding-top: 20px;
+
 }
 @media screen and (min-width:600px) {
     header{
