@@ -6,7 +6,7 @@ justify-content: flex-start;
 
 /* * {
   box-sizing: border-box;
-  
+
   font-size: 18px;;
 }  */
 
@@ -39,3 +39,35 @@ display: center;
            width: 100%;
          }
        }
+
+       ul a {
+        display: flexbox;
+        flex-direction: row;
+        text-align: center;
+        text-decoration: none;
+        color: var(--secondary-background);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 10px;
+        border-radius: 10px;
+       }
+   
+    
+    .portfolio {
+      display:flexbox;
+      flex-direction: row;
+      text-align: center;
+      float:initial;
+      border-radius: 25px;
+      padding: 25px;
+      margin: 15px;
+      background-color: var(--primary-background);
+      background-color: white;
+      box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
+      margin-bottom: 25px;
+    }
+
+    /* .portfolio-align:after {
+      content: "";
+      display: table;
+      clear: both;
+    } */

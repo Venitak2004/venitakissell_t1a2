@@ -34,6 +34,7 @@ main {
 .button-grid {
         /* background-color: var(--primary-color); */
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-align: center;
         padding: 20px;
         background-color: var(--secondary colour);
         text-decoration: none;
@@ -45,7 +46,7 @@ main {
         box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
       }
 .button a {
-    hover:var(--secondary); 
+    overlay:var(--secondary); 
     color: var(--secondary) 
     
       }

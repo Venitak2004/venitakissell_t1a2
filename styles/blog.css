@@ -3,15 +3,15 @@
       * {box-sizing: border-box;
      } 
    
-     main {
-        /* display:-webkit-flex; */
-        /* flex-direction:column; */
-     }
+  
+
+  
      .blog-posts {
     
         display:flexbox;
         flex-direction: row;
         float:initial;
+        text-align: center;
         border-radius: 25px;
         padding: 25px;
         margin: 15px;
@@ -21,34 +21,30 @@
         margin-bottom: 25px;
      }
  
-       .blog-align:after {
+       /* .blog-align:after {
         content: "";
         display: table;
         clear: both;
-      }
+      } */
 
     
-      img {
-        display: center;
-        /* display:inline-flex; */
-        margin: auto;
-        height: auto;
-        padding: 3px;
+      .blog-posts img {
+       border-radius: 50px;
       } 
-      
+       
     
-      div.blog-title {
+      .blog-title {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 2vw;
         text-align: center;
-        padding: 10px;
+        
       }
 
-      p {
+      /* p {
        align-self: flex-end;
         float: left;
       }
-      
+       */
 
       .footer-info {
         text-align: center;
@@ -59,7 +55,21 @@
         padding: 3vw;
         margin-top: 30px;
         background-color: var(--primary-background);
-    }
+    } 
+
+    ul a {
+      display: flexbox;
+      text-align: center;
+      text-decoration:none;
+      color: var(--secondary-background);    
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 10px;
+      border-radius: 10px; 
+  }
+  
+  ul a:hover {
+      color: var(--secondary-color);
+      background-color: white;
 
       /* @media only screen and (max-width: 700px) {
         .blog-posts {
