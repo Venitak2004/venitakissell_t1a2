@@ -8,18 +8,19 @@ main {
   .gridh { grid-area: header; font-size: 30px; }
     .gridmu { grid-area: menu; font-size:18px; }
     .gridm { grid-area: main;}
-    .gridf { grid-area: footer; }
+    .gridf { grid-area: footer;}
 
 
 .grid-layout {
         display: grid;
+        text-align: center;
         grid-template-areas:
           'header header header header'
           'menu menu menu menu'
           'main main main main'
           'footer footer footer footer';
         gap: 10px;
-        padding: 0px;
+        padding: 20px;
       }
       
   
@@ -34,7 +35,8 @@ main {
 .button-grid {
         /* background-color: var(--primary-color); */
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        box-align: center;
+        color: black;
+        text-align: justify;
         padding: 20px;
         background-color: var(--secondary colour);
         text-decoration: none;
@@ -44,24 +46,30 @@ main {
         min-width: 70px;
         font-size: 15px;
         box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
-      }
-.button a {
+   
+    }
+    
+/* .button a {
+  
     overlay:var(--secondary); 
     color: var(--secondary) 
     
-      }
+      } */
 
 
 
 .gridm img {
     width: 100%;
+    border-radius: 25px;
 
 } 
 
-.gridmu {
-    text-align: justify;
+.gridm {
+    text-align: center;  
+    padding: 30px; 
     
 }
+
 
 
 @media screen and (min-width:600px) {

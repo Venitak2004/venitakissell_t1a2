@@ -12,6 +12,7 @@
 
 }
 
+
 body {
     /* min-height: 50dvh; */
     /* display:flex; */
@@ -52,7 +53,7 @@ h1 {
     /* background-color: var(--secondary-background); */
     justify-content: space-evenly;
     display: flex;
-   
+    background-color: #e4e3df; 
 }
 
 #nav-menu a {
@@ -97,6 +98,7 @@ a:hover {
     background-color: var(--primary-background);
 }
 .social-links{
+    color:black;
     display:flex;
     size: 50px;
     padding: 30px;
@@ -105,19 +107,20 @@ a:hover {
     justify-content:right;
     background-color: var(--primary-background);
 }
-/* .social-media {
-    display: center;
-    justify-content: space-around;
-    margin-bottom: 2px;
-    box-align: top-right;
-} */
 
 .social-media a i {
-    font-size:20px;
-    padding: 25px;
+    display:flex;
+    float: right;
+    flex-direction: column;
+    size: 50px;
+    padding: 2px;
     color: black;
+    text-align: right;
 }
 
+.social-media:hover {
+    color:pink;
+}
 .vlk-logo {
     text-align: center;
 
@@ -133,6 +136,7 @@ ul a {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     border-radius: 10px; 
+    margin-bottom: 30px;
 }
 
 ul a:hover {

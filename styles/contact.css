@@ -1,18 +1,5 @@
 
-/* navigation menu */
-/* #nav-menu {
-        font-size:3vw;
-        padding-block: 15px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color: var(--primary-color);
-        justify-content: space-evenly;
-        display: flex;
-    }
-     */
-/* #nav-menu a {
-        text-decoration: none;
-    } */
-
+/* maind body */
     main {
         display: flex;
         align-items: center;
@@ -21,9 +8,10 @@
         background-color: var(--primary-background);
     }
 
-.contactus {
+.contactus img {
     display: flexbox;
     position:relative;
+    border-radius: 25px;
 }
 /* Contact Header */
 .contact-text{
@@ -45,12 +33,13 @@ h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 18px;
+    padding: 20px;
     
 }
 /* Input text fields for contact form  */
 input[type=text] {
     width: 100%;
-    padding: 12px 20px 12px 50px;
+    padding: 12px 20px 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
@@ -76,9 +65,9 @@ input[type=checkbox] {
     box-sizing: border-box;
 }
 
-/* * {
+* {
     box-sizing: border-box;
-  } */
+  }
 .contact-form {
     display: block;
     position: relative;
@@ -121,14 +110,14 @@ form {
         box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
         margin-bottom: 25px;
     }
-
+/* submit button and styling */
 
 .submit-btn {   
     text-align: center;   
     }
 #submit {
    
-    background-color: var(--primary-color);
+    background-color: var(--primary-background);
     padding: 10px 30px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -142,16 +131,23 @@ form {
     cursor: pointer;
 }
 
-
-.reset-btn {
-        height: 20px;
-        border: none;
-        border-radius: 4px;
-        min-width: 70px;
-        font-size: 15px;
+/* reset button styling */
+.reset {
+    background-color: var(--primary-background);
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    min-width: 70px;
+    font-size: 15px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
     }
+    
+.reset:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
 
-.social-links{
+/* .social-links{
         display: flex;
         size: 50px;
         padding: 30px;
@@ -165,15 +161,32 @@ form {
 .social-media a i {
         font-size: 24px;
         color: black;
-        }
+        } */
 
+
+/* Footer menu bar */
+
+.footer-menu {
+    text-align: center;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size:16px;
+    color:black;
+    padding: 20px ;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    background-color: var(--primary-background);
+}
 
 ul a {
-        display:inline-block;
-        text-decoration: none;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding: 10px;            
-        }
+    display: flexbox;
+    text-align: center;
+    justify-content: space-evenly;
+    text-decoration:none;
+    color: var(--secondary-background);    
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    padding: 10px;
+    border-radius: 10px; 
+}
         
 ul a:hover {
             color: black;
