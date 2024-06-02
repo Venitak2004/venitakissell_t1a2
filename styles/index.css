@@ -164,6 +164,7 @@ ul:hover {
 
 .footer-menu {
     padding-top: 20px;
+    text-align: center;
 
 }
 @media screen and (min-width:600px) {

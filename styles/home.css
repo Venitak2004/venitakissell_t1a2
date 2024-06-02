@@ -1,7 +1,184 @@
-.homepageimage {
- 
-    /* display: 100%;
-    flex-wrap: wrap;
-    justify-content: center; */
+:root {
+    --primary-color: #8d8d8d;
+    --secondary-color:rgb(89, 92, 92);
+    --primary-background:#F1F0EA;
+    --secondary-background:#a1a09b ;
+    }
+
+
+
+.header img {
+    position:relative;
+
 }
 
+
+body {
+    /* min-height: 50dvh; */
+    /* display:flex; */
+    /* flex-direction: column;
+    justify-content: space-between; */
+    background-color: var(--primary-background);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.blurb-text p {
+    display: grid;
+    font-size: 2dvh;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blurb-text p {
+    display: block;
+   text-align: justify;
+   font-size: 15px;
+   padding: 50px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#nav-menu {
+    /* font-size:2vw; */
+    width:100%;
+    padding-block: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: var(--secondary-background); */
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #e4e3df; 
+}
+
+#nav-menu a {
+    
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+a:hover {
+    color:#8d8d8d var(--secondary-background);
+    background-color: white;
+}
+
+.home-page-image {
+    position: relative;
+}
+
+.centertop {
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    border-radius: 20px;
+    padding:40px;
+    top: 2%;
+    left: 10%;
+    right: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+    text-align:center;    
+}
+/* address and contact details  */
+.footer-info {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+    color:black;
+    padding: 0px ;
+    margin-top: 0px;
+    background-color: var(--primary-background);
+}
+.social-links{
+    color:black;
+    display:flex;
+    size: 50px;
+    padding: 30px;
+    flex-direction: column;
+    /* align-items:center; */
+    /* justify-content:right; */
+    /* background-color: var(--primary-background); */
+}
+
+/* .social-media a i {
+    display:flex;
+    float: right;
+    flex-direction: column;
+    size: 50px;
+    padding: 2px;
+    color: black;
+    text-align: right;
+} */
+
+/* icon social buttons */
+
+
+.social-media a i {
+    display:flex;
+    float: right;
+    flex-direction: column;
+    padding: 8px;
+    color: black;
+    text-align: right;
+
+}
+
+
+
+
+/* .social-media:hover {
+    color:pink;
+} */
+.vlk-logo {
+    text-align: right;
+
+
+}
+
+/* footer menu also tied to portfolio */
+ul a {
+    display: flexbox;
+    text-align: center;
+    justify-content: space-evenly;
+    text-decoration:none;
+    color: var(--secondary-background);    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px; 
+    margin-top: 30px;
+   
+}
+
+ul:hover {
+    color: var(--secondary-color);
+    /* background-color: white; */
+}
+
+.footer-menu {
+    padding-top: 20px;
+    text-align: center;
+
+}
+@media screen and (min-width:600px) {
+    header{
+        display: flex-box;
+        justify-content:space-evenly;
+    
+    }
+}
+
+@media screen and (min-width:400px) {
+    header{
+        display: flex-box;
+        justify-content:space-evenly;
+    
+    }
+}

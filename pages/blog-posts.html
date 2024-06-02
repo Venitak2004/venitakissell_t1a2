@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VLK - Blog</title>
 
+    <!-- Website Icon -->
+    <link rel="icon" type="image/x-icon" href="../images/vlk-logo.png"/>
+    
+<!-- style sheet links to css style sheets -->
     <link rel="stylesheet" href="../styles/index.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <link rel="stylesheet" href="./blog.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/blog.css">
+    <link rel="stylesheet" href="../blog-posts.css">
+
+<!-- Fontawesome Script for icons -->
     <script src="https://kit.fontawesome.com/8eba300f7a.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <header>
+<!-- social media links to linked in, facebook, instagram -->
+         <div class="social-media">
+              <a href="https://www.linkedin.com" target="_blank"> 
+                 <i class="fab fa-linkedin"> </i>
+              </a>
+              <a href="https://www.github.com" target="_blank">
+                 <i class="fab fa-square-github"></i>
+              </a>
+              <a href="https://www.facebook.com" target="_blank">
+                  <i class="fab fa-square-facebook"></i>
+              </a>
+        </div>
 
-      <div class="social-media">
-        <a href="https://www.linkedin.com" target="_blank"> 
-            <i class="fab fa-linkedin"> </i>
-        </a>
-        <a href="https://www.github.com" target="_blank">
-            <i class="fab fa-square-github"></i>
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-            <i class="fab fa-square-facebook"></i>
-        </a>
-    </div>
         <!-- Logo installed into header -->
             <div class="vlk-logo">
-                <img src="../images/vlk_logo.pdf" alt="vlk logo" width="200" height="200">
+                <img src="../images/vlk-logo.pdf" alt="vlk logo" width="100" height="100">
             </div>
 
 
@@ -34,65 +44,117 @@
         <div>
             <nav id="nav-menu">
               <a href="../index.html">Home</a>
-              <a href="./portfolio.html">Portfolio</a>
-              <a href="./blog.html">Blog</a>
-              <a href="./about.html">About</a>
+                <a href="./portfolio1.html">Portfolio</a>
+                 <a href="./blog.html">Blog</a>
+                <a href="./about.html">About</a>
               <a href="./contact.html">Contact</a>
             </nav>
     </header>
 
-    <article class="all-blogs">
-        <h1>Blog Releases</h1>
-        <article class="blogs">
-          <h2>Seo and how it affects site Traffic</h2>
-          <h3>Author: Venita Kissell - January 2023</h3>
-          <img src="../images/seo.jpg" alt="About Us" width="50%"></div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa earum porro aspernatur ipsa pariatur quia aliquid tenetur excepturi vel aliquam rem cum, laudantium dicta eaque. Nulla fugiat temporibus error obcaecati.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, fuga maxime, architecto, et sed omnis laborum nisi neque accusantium earum qui iste mollitia eum optio. Saepe repellat reiciendis qui ab.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, accusantium nihil eius cumque labore similique distinctio doloribus, dignissimos blanditiis velit, veniam quaerat animi suscipit deleniti perspiciatis qui molestias nostrum tempora!
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis doloremque alias voluptates odit accusamus similique minus soluta nobis vitae exercitationem, sapiente, aperiam blanditiis saepe rem quae voluptatibus! A, quidem!</p>
+    <main>
+      <!-- bookmarks for blog releases -->
+      <nav>
+        <article class="all-blogs">
+           <h1>Blog Releases</h1><br>
+             <li><a href="#seo">SEO Blog - January 2023</a></li>
+                <li><a href="#cloud">Cloud Blog - March 2023</a></li>
+                <li><a href="#java">Java Blog - November 2023</a></li>
+              <li><a href="#python">Python Blog - January 2024</a></li>
+           <li><a href="#ai">Artificial Intelligence Blog - March 2024</a></li>
+           </article>
+       </nav> <br><br>
+
+        <article class="blog-posts">
+             <h2 id="seo">SEO and how it affects site traffic</h2>
+             <p><a href="#">back to top</a></p>
+               <h3>Author: Venita Kissell - January 2023</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, rerum quibusdam? Rerum, sit porro nemo harum beatae architecto adipisci, iure, reiciendis illo saepe distinctio deleniti autem. Tenetur accusamus vel magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, exercitationem. Esse, illo? Consectetur, quo, labore nulla ipsum amet eum soluta dolores deserunt consequuntur exercitationem neque vero explicabo sit sapiente magni.</p>
+                     <img src="../images/seo.jpg" alt="About Us" width="50%"></div>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa earum porro aspernatur ipsa pariatur quia aliquid tenetur excepturi vel aliquam rem cum, laudantium dicta eaque. Nulla fugiat temporibus error obcaecati.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, fuga maxime, architecto, et sed omnis laborum nisi neque accusantium earum qui iste mollitia eum optio. Saepe repellat reiciendis qui ab.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, accusantium nihil eius cumque labore similique distinctio doloribus, dignissimos blanditiis velit, veniam quaerat animi suscipit deleniti perspiciatis qui molestias nostrum tempora!
+                   </p>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis doloremque alias voluptates odit accusamus similique minus soluta nobis vitae exercitationem, sapiente, aperiam blanditiis saepe rem quae voluptatibus! A, quidem!</p>
         </article> <br><br>
 
-        <article class="blogs">
-          <h2>File Saving to Cloud - Pros and Cons</h2>
-          <h3>Author: Venita Kissell - March 2023</h3>
-          <img src="../images/cloud.jpg" alt="Cloud image" style="width:50% ;height:auto">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, necessitatibus dolorem sapiente ut quae explicabo, aliquam eum modi tenetur corrupti harum inventore mollitia impedit quis error iste provident deleniti ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Sapiente, illum. Cupiditate, tenetur doloremque? Fuga distinctio est magnam expedita similique, architecto exercitationem cupiditate recusandae libero odio eligendi consequuntur doloribus officia. Sapiente.</p>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis similique obcaecati, dignissimos, aperiam inventore deserunt nisi, libero maxime harum ullam nostrum quam facere hic alias nam expedita error dolor.</p>
-    
+        <article class="blog-posts">
+              <h2 id="cloud">File Saving to Cloud - Pros and Cons</h2>
+              <p><a href="#">back to top</a></p>
+                <h3>Author: Venita Kissell - March 2023</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, necessitatibus dolorem sapiente ut quae explicabo, aliquam eum modi tenetur corrupti harum inventore mollitia impedit quis error iste provident deleniti ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Sapiente, illum. Cupiditate, tenetur doloremque? Fuga distinctio est magnam expedita similique, architecto exercitationem cupiditate recusandae libero odio eligendi consequuntur doloribus officia. Sapiente.</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis similique obcaecati, dignissimos, aperiam inventore deserunt nisi, libero maxime harum ullam nostrum quam facere hic alias nam expedita error dolor.</p>
+                       <img src="../images/cloud.jpg" alt="Cloud image" style="width:50% ;height:auto">
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, necessitatibus dolorem sapiente ut quae explicabo, aliquam eum modi tenetur corrupti harum inventore mollitia impedit quis error iste provident deleniti ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Sapiente, illum. Cupiditate, tenetur doloremque? Fuga distinctio est magnam expedita similique, architecto exercitationem cupiditate recusandae libero odio eligendi consequuntur doloribus officia. Sapiente.</p>
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis similique obcaecati, dignissimos, aperiam inventore deserunt nisi, libero maxime harum ullam nostrum quam facere hic alias nam expedita error dolor.</p>
         </article><br><br>
 
-        <article class="blogs">
-          <h2>Java and how it makes your website POP</h2>
-          <h3>Author: Venita Kissell - November 2023</h3>
-          <img src="../images/java.jpg" alt="Java image" style="width:50% ;height:auto">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi, quam repudiandae itaque distinctio necessitatibus blanditiis quo eum assumenda voluptates quidem, quisquam molestias facere quaerat officiis cumque a ipsa dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo dicta vel soluta ipsam ea sunt quo ipsum enim, quas eligendi amet illum fugiat non assumenda animi repudiandae? Dolores, quae molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia minima rerum vitae omnis ut rem sit, id maiores error delectus asperiores, quis, voluptate placeat minus recusandae deserunt commodi! Praesentium, saepe?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores at consequuntur tempora ducimus itaque laboriosam deserunt, cumque quod, animi voluptatibus atque aspernatur veritatis quos id reprehenderit sequi voluptatem earum?</p>
-
+        <article class="blog-posts">
+            <h2 id="java">Java and how it makes your website POP</h2>
+                  <p><a href="#">back to top</a></p>
+               <h3>Author: Venita Kissell - November 2023</h3>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, necessitatibus dolorem sapiente ut quae explicabo, aliquam eum modi tenetur corrupti harum inventore mollitia impedit quis error iste provident deleniti ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                       Sapiente, illum. Cupiditate, tenetur doloremque? Fuga distinctio est magnam expedita similique, architecto exercitationem cupiditate recusandae libero odio eligendi consequuntur doloribus officia. Sapiente.</p>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis similique obcaecati, dignissimos, aperiam inventore deserunt nisi, libero maxime harum ullam nostrum quam facere hic alias nam expedita error dolor.</p>
+                  <img src="../images/java.jpg" alt="Java image" style="width:50% ;height:auto">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi, quam repudiandae itaque distinctio necessitatibus blanditiis quo eum assumenda voluptates quidem, quisquam molestias facere quaerat officiis cumque a ipsa dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Nemo dicta vel soluta ipsam ea sunt quo ipsum enim, quas eligendi amet illum fugiat non assumenda animi repudiandae? Dolores, quae molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia minima rerum vitae omnis ut rem sit, id maiores error delectus asperiores, quis, voluptate placeat minus recusandae deserunt commodi! Praesentium, saepe?</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores at consequuntur tempora ducimus itaque laboriosam deserunt, cumque quod, animi voluptatibus atque aspernatur veritatis quos id reprehenderit sequi voluptatem earum?</p>
         </article><br><br>
 
-        <article class="blogs">
-            <h2>Python Coding tips and tricks</h2>
-            <h3>Author: Venita Kissell - January 2024</h3>
-            <img src="../images/python.jpg" alt="Python Image" style="width:50% ;height:auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo culpa sequi aliquid ullam ducimus excepturi quidem, blanditiis libero doloremque distinctio omnis eligendi molestias placeat dolor odio necessitatibus, at hic quasi.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit eos cumque, similique velit praesentium commodi maxime, alias molestiae nobis tenetur dignissimos, neque voluptates aut exercitationem autem necessitatibus cupiditate ipsum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor hic deserunt dignissimos aspernatur, a quidem quam tempore quos maiores inventore eligendi corrupti ipsam illo ipsum odio quis! Animi, mollitia numquam.
-            </p>
+        <article class="blog-posts">
+            <h2 id="python">Python Coding tips and tricks</h2>
+                   <p><a href="#">back to top</a></p>
+               <h3>Author: Venita Kissell - January 2024</h3>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, necessitatibus dolorem sapiente ut quae explicabo, aliquam eum modi tenetur corrupti harum inventore mollitia impedit quis error iste provident deleniti ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sapiente, illum. Cupiditate, tenetur doloremque? Fuga distinctio est magnam expedita similique, architecto exercitationem cupiditate recusandae libero odio eligendi consequuntur doloribus officia. Sapiente.</p>
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis similique obcaecati, dignissimos, aperiam inventore deserunt nisi, libero maxime harum ullam nostrum quam facere hic alias nam expedita error dolor.</p>
+               <img src="../images/python.jpg" alt="Python Image" style="width:50% ;height:auto">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo culpa sequi aliquid ullam ducimus excepturi quidem, blanditiis libero doloremque distinctio omnis eligendi molestias placeat dolor odio necessitatibus, at hic quasi.
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit eos cumque, similique velit praesentium commodi maxime, alias molestiae nobis tenetur dignissimos, neque voluptates aut exercitationem autem necessitatibus cupiditate ipsum.
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor hic deserunt dignissimos aspernatur, a quidem quam tempore quos maiores inventore eligendi corrupti ipsam illo ipsum odio quis! Animi, mollitia numquam.
+                   </p>
         </article><br><br>
 
-        <h2>AI Is it worth all the hype</h2>
-        <h3>Author: Venita Kissell - March 2024</h3>
-        <img src="../images/ai.jpg" alt="AI image" style="width:50% ;height:auto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo culpa sequi aliquid ullam ducimus excepturi quidem, blanditiis libero doloremque distinctio omnis eligendi molestias placeat dolor odio necessitatibus, at hic quasi.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit eos cumque, similique velit praesentium commodi maxime, alias molestiae nobis tenetur dignissimos, neque voluptates aut exercitationem autem necessitatibus cupiditate ipsum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor hic deserunt dignissimos aspernatur, a quidem quam tempore quos maiores inventore eligendi corrupti ipsam illo ipsum odio quis! Animi, mollitia numquam.
-        </p>
-    </article><br><br>
-    </article>
+       <article class="blog-posts">
+             <h2 id="ai">AI Is it worth all the hype</h2>
+                  <p><a href="#">back to top</a></p>
+               <h3>Author: Venita Kissell - March 2024</h3>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, necessitatibus dolorem sapiente ut quae explicabo, aliquam eum modi tenetur corrupti harum inventore mollitia impedit quis error iste provident deleniti ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Sapiente, illum. Cupiditate, tenetur doloremque? Fuga distinctio est magnam expedita similique, architecto exercitationem cupiditate recusandae libero odio eligendi consequuntur doloribus officia. Sapiente.</p>
+                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis similique obcaecati, dignissimos, aperiam inventore deserunt nisi, libero maxime harum ullam nostrum quam facere hic alias nam expedita error dolor.</p>
+             <img src="../images/ai.jpg" alt="AI image" style="width:50% ;height:auto">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo culpa sequi aliquid ullam ducimus excepturi quidem, blanditiis libero doloremque distinctio omnis eligendi molestias placeat dolor odio necessitatibus, at hic quasi.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit eos cumque, similique velit praesentium commodi maxime, alias molestiae nobis tenetur dignissimos, neque voluptates aut exercitationem autem necessitatibus cupiditate ipsum.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor hic deserunt dignissimos aspernatur, a quidem quam tempore quos maiores inventore eligendi corrupti ipsam illo ipsum odio quis! Animi, mollitia numquam.
+                 </p>
+       </article><br><br>
+     </article>
+    </main>
+  <footer>
+
+      <section>
+        <!-- footer contact and address details -->
+        <div class="footer-info">
+         <p>Copyright &#169 Venita Kissell</p>
+            <p>Phone: 0444 121 580</p>
+            <p>Address: 125 Stratton Street, Benowa Q 4217</p>
+        </div>
+       </section>
+ 
+       <div class="footer-menu">
+         <ul>
+              <a href="../index.html">Home</a> |
+               <a href="./portfolio1.html">Portfolio</a> |
+               <a href="./blog.html">Blog</a> |
+               <a href="./about.html">About</a> |
+               <a href="./contact.html">Contact</a> |
+               <a href="../images/VENITAKISSELL RESUME.pdf">Resume</a>
+         </ul>
+      </div>   
+      
+  </footer>
 
 </body>
 </html>
